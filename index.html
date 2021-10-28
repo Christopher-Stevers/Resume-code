@@ -11,9 +11,13 @@
         :root {
             font-family: Roboto, sans-serif;
         }
-
+header{display: grid;
+    align-items: center;
+grid-template-rows: 1fr 1fr 1fr;
+grid-template-columns: 1fr 2fr 1fr;}
         h1 {
-            grid-column: 1/3;
+            grid-column: 2/3;
+            grid-row: 1/4;
             font-size: 3rem;
         }
 
@@ -34,24 +38,27 @@
         }
         .tech-list{display: flex;}
         p{text-align: justify;}
+        li{margin:.5rem;}
     </style>
 </head>
 
 <body>
-    <h1>Christopher Stevers</h1>
-    
-    <h2>Contact</h2>
-    <ul><li>Phone: 519-393-6855</li><li>Email: christopher.stevers1@gmail.com</li>
-        <li>Portfolio: <a href="https://devStevers.com">www.devstevers.com.</a></li>
-        <li>Github <a href="https://github.com/Christopher-Stevers">Christopher-Stevers</a></li>
-        <li>Twitter: <a href="https://twitter.com/Christo28120856" >Christo28120856</a></li>
-        <li>Blog: <a href="https://christopherstevers.cf">Scribo</a></li></ul>
-        
-      
+    <header>
+        <div>Portfolio: <a href="devstevers.com">devstevers.com</a></div><div>Github: <a href="https://github.com/Christopher-Stevers">Christopher-Stevers</a></div>
+    <h1>Christopher Stevers</h1>  <div><a href="christopher.stevers1@gmail.com">christopher.stevers1@gmail.com</a></div><div>Linkedin: <a href="https://www.linkedin.com/in/christopher-stevers-07b9a5204/">Christopher Stevers</a></div>
+      </header>
+  
     <h2>Summary</h2>
-    <article>Hi, I'm Chris, a frontend developer. I have a strong knowledge of web fundamentals and the React framework. I am comfortable writing semantic HTML, responsive CSS, and have a firm understanding of vanilla JavaScript. I use React to provide structure to my larger sites and apps. Lately I've been
-        working with Next.js and MongoDB to build fullstack apps. I'm currently looking for an opportunity where I can use the skills I've developed to produce clean, performant websites. If I'm not coding, I might be writing fantasy or learning fiddle.
+    <article>Hi, I'm Chris, a software developer from Stratford Ontario. Through open source work and personal projects I've gained a strong understanding of web fundamentals and the React framework. I am comfortable writing semantic HTML, responsive CSS, and have a firm understanding of vanilla JavaScript. I use React to provide structure to my larger sites and apps. Lately I've been
+        working with Next.js and MongoDB to build fullstack apps. I'm currently looking for an opportunity where I can use the skills I've developed to produce clean, performant applications on the web. If I'm not coding, I might be writing fantasy or learning fiddle.
     </article>
+ <h2 class="h2">Experience</h2>
+        <ul>
+                <li> <strong>Automattic(open source contributions)</strong> I've begun contributing to open source projects maintained by Automattic(the creators of wordpress). Through my work on there repositories, I've built enterprise ready production code, while using tools such as Docker and WSL. Here's my most recent <a href="https://github.com/Automattic/jetpack/pull/21263">pull request</a>.</li>
+                <li><strong>Soul Runner</strong> I'm a collaborator on an indie game development project, with team members in Australia and the US. To improve collaboration I set up and help manage the Git workflow with Gitlab and Github desktop. I'm also involved in the game development, and I'm putting together the marketing website. Check out the website prototype: <a href="https://vigorous-wilson-44e689.netlify.app/">Soul Runner website</a>.</li>
+            
+        </ul>
+    
         <h2 class="h2">Projects</h2>
         <ul>
             <li><a href="https://new-kanbeano.vercel.app">Kanbeano</a>, a fullstack web app built on Next.js, Vercel's framework for React.js and Node.js. Uses SCSS modules for styling.</li>
@@ -62,33 +69,21 @@
             
         </ul>
     <article class="skill">
-        <h2 class="h2">Skills</h2>
-            
-           <section> <h3 class="first">Tech Experience</h3>
-            <p>
-                I began programming with C++ but was later introduced to HTML+CSS and caught the web development bug. Since then I've picked up JavaScript and started using the React framework. Besides working on web development,  I also managed the set up of Git and GitLab for a ue4 project I'm collaborating on. Delving into tech has been a great experience in
-                itself, but I can wait to actually use my skills in a work environment.</p>
-            </section>
-
-       <section> <h3>Technologies</h3>
+        <h2 class="h2">Skills</h2><section>
         <div class="tech-list">
             <ul>
                 <li>HTML/CSS</li>
                 <li>JavaScript/ES6</li>
                 <li>React.js/Next.js</li>
-                <li>Docker(basic familiarity)</li>
-                <li>SQL (basic familiarity)</li>
                 <li>Github</li>
                 <li>Git</li>
             </ul>
                 <ul>
                 <li>Node.js</li>
-                <li>RESTful APIs</li>
                 <li>MongoDB</li>
-                <li>Redux</li>
-                <li>D3.js</li>
                 <li>SCSS</li>
-                <li>CSS modules</li></ul></div></div>
+                <li>C# (basic familiarity)</li>
+                <li>Docker(basic familiarity)</li></ul></div></div>
         </section>
     </article>
 <article>
@@ -99,15 +94,10 @@
             <em>Frontend Libraries</em> (2021), 
             JavaScript Data Structures and Algorithms</em> (2020), and <em>Responsive Web
                 Design</em> (2020).</li>
-        <li>Royal Conservatory of Music Grade 8 Piano Honours (2019)</li>
-        <li>Our Lady of Victory Highschool Diploma (2019)</li>
+        <li>Royal Conservatory of Music Grade 8 Piano Honours (2019).</li>
+        <li>Our Lady of Victory Highschool Diploma (2019).</li>
     </ul>
     </p>
-    <h2>Work Experience</h2>
-    <ul><li>Carpentry Apprentice (2020) General labour on luxury homes.</li>
-        <li>Farm Hand (2012-present) General labour, animal management and heavy equipment operation. I'm currently managing the day to day care of swine operation that grosses $200,000 annually.</li>
-        
-    </ul>
     
     <p>
     </p></article>
